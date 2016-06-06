@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "MiPushSDK"
-s.version          = "2.2"
+s.version          = "2.2.0"
 s.summary          = "WeChat iOS SDK."
 s.homepage         = "http://dev.xiaomi.com"
 s.license          = {
@@ -18,7 +18,7 @@ s.license          = {
 s.author           = { "xiaomi" => "http://dev.xiaomi.com" }
 s.source           = { :git => "https://github.com/appwgh/MiPushSDK.git", :tag => "#{s.version}" }
 
-s.platform     = :ios, '8.0'
+s.platform     = :ios, '7.0'
 s.requires_arc = true
 
 s.source_files = 'libMiPushSDK/*.{h,m}'
