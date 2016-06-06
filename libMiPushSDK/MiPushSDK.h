@@ -47,8 +47,8 @@
  *      connect: 是否启动长连接, 它跟APNSs是不同的通道(不管是否启动系统推送, app在前台都可以收到在线或离线消息)
  */
 + (void)registerMiPush:(id<MiPushSDKDelegate>)delegate;
-+ (void)registerMiPush:(id<MiPushSDKDelegate>)delegate type:(UIRemoteNotificationType)type;
-+ (void)registerMiPush:(id<MiPushSDKDelegate>)delegate type:(UIRemoteNotificationType)type connect:(BOOL)connect;
++ (void)registerMiPush:(id<MiPushSDKDelegate>)delegate type:(UIUserNotificationType)type;
++ (void)registerMiPush:(id<MiPushSDKDelegate>)delegate type:(UIUserNotificationType)type connect:(BOOL)connect;
 
 /**
  * 客户端设备注销
