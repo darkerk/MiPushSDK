@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
 s.name             = "MiPushSDK"
-s.version          = "2.2.1"
-s.summary          = "WeChat iOS SDK."
+s.version          = "2.2.2"
+s.summary          = "小米推送 iOS SDK."
 s.homepage         = "http://dev.xiaomi.com"
 s.license          = {
     					:type => "Copyright",
