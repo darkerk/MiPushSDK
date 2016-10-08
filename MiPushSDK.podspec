@@ -16,7 +16,7 @@ s.license          = {
     					:text => "小米科技 版权所有."
                       }
 s.author           = { "xiaomi" => "http://dev.xiaomi.com" }
-s.source           = { :git => "https://github.com/appwgh/MiPushSDK.git", :tag => "#{s.version}" }
+s.source           = { :git => "https://github.com/iCell/MiPushSDK.git", :tag => "#{s.version}" }
 
 s.platform     = :ios, '7.0'
 s.requires_arc = true
@@ -25,7 +25,7 @@ s.source_files = 'libMiPushSDK/*.{h,m}'
 s.public_header_files = 'libMiPushSDK/*.h'
 s.vendored_libraries  = 'libMiPushSDK/libMiPushSDK.a'
 
-s.frameworks = 'MobileCoreServices', 'SystemConfiguration', 'CFNetwork', 'CoreTelephony'
+s.frameworks = 'MobileCoreServices', 'SystemConfiguration', 'CFNetwork', 'CoreTelephony', 'UserNotifications'
 s.library = 'z', 'xml2', 'resolv'
 
 end
