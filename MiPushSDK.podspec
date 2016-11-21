@@ -16,9 +16,9 @@ s.license          = {
     					:text => "小米科技 版权所有."
                       }
 s.author           = { "xiaomi" => "http://dev.xiaomi.com" }
-s.source           = { :git => "https://github.com/iCell/MiPushSDK.git", :tag => "#{s.version}" }
+s.source           = { :git => "https://github.com/appwgh/MiPushSDK.git", :tag => "#{s.version}" }
 
-s.platform     = :ios, '7.0'
+s.platform     = :ios, '8.0'
 s.requires_arc = true
 
 s.source_files = 'libMiPushSDK/*.{h,m}'

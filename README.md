@@ -4,9 +4,8 @@
 
 ###重要!
 #### SDK 2.2.4
-1. 新增swift版demo
-2. 修复unregisterMiPush之后无法重新注册的问题
-3. 修复偶现的crash问题
+1. 修复unregisterMiPush之后无法重新注册的问题
+2. 修复偶现的crash问题
 
 
 #### SDK 2.2.2
