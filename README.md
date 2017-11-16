@@ -1,12 +1,15 @@
-##MiPushSDK
+## MiPushSDK
 ============
-###小米推送SDK for iOS，和小米官方同步。
+### 小米推送SDK for iOS，和小米官方同步。
 
-###重要!
+### 重要!
+#### SDK 2.2.8
+1. 修复Xcode9报 UI 操作没有在主线程中执行的问题
+2. 修复其他已知bug
+
 #### SDK 2.2.4
 1. 修复unregisterMiPush之后无法重新注册的问题
 2. 修复偶现的crash问题
-
 
 #### SDK 2.2.2
 1. 新增客户端获取RegID的方法：getRegId。
